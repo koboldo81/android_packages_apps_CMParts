@@ -59,7 +59,7 @@
   <string name="privacy_guard_notification_title">顯示通知</string>
   <!-- Notification light dialogs -->
   <string name="edit_light_settings">編輯指示燈設定</string>
-  <string name="pulse_speed_title">呼吸燈長度與速度</string>
+  <string name="pulse_speed_title">閃爍呼吸燈長度與速度</string>
   <string name="default_time">正常</string>
   <string name="custom_time">自訂</string>
   <string name="dialog_delete_title">刪除</string>
@@ -79,7 +79,7 @@
   <string name="pulse_speed_very_slow">非常低</string>
   <!-- Battery light settings -->
   <string name="battery_light_title">電量指示燈</string>
-  <string name="battery_low_pulse_title">電量不足時開啟呼吸燈</string>
+  <string name="battery_low_pulse_title">電量不足時閃爍呼吸燈</string>
   <string name="battery_light_list_title">顏色</string>
   <string name="battery_light_low_color_title">電量不足</string>
   <string name="battery_light_medium_color_title">充電中</string>
@@ -176,7 +176,7 @@
   <string name="hardware_keys_action_split_screen">分割視窗</string>
   <string name="hardware_keys_action_single_handed_left">單手模式 (左)</string>
   <string name="hardware_keys_action_single_handed_right">單手模式 (右)</string>
-  <string name="camera_sleep_on_release_title">窺視螢幕</string>
+  <string name="camera_sleep_on_release_title">預覽螢幕</string>
   <string name="camera_sleep_on_release_summary">僅有當按住按鍵時，半按即可保持螢幕開啟。</string>
   <string name="camera_launch_title">開啟相機</string>
   <string name="camera_launch_summary">按住並放開將會啟動相機</string>
@@ -238,6 +238,12 @@
   <string name="camera_double_tap_power_gesture_desc">快速開啟相機，無需解鎖螢幕</string>
   <string name="torch_long_press_power_gesture_title">長按開啟手電筒</string>
   <string name="torch_long_press_power_gesture_desc">當螢幕關閉時長按電源鍵啟動手電筒</string>
+  <string name="torch_long_press_power_timeout_title">自動關閉手電筒</string>
+  <string name="torch_long_press_power_timeout_never">永不</string>
+  <string name="torch_long_press_power_timeout_1min">1 分鐘</string>
+  <string name="torch_long_press_power_timeout_2min">2 分鐘</string>
+  <string name="torch_long_press_power_timeout_5min">5 分鐘</string>
+  <string name="torch_long_press_power_timeout_10min">10 分鐘</string>
   <!-- Profiles -->
   <string name="profile_menu_delete_title">刪除</string>
   <string name="profile_action_none">保持不變</string>
@@ -283,13 +289,13 @@
   <string name="profile_populate_profile_from_state">使用目前的裝置設定新增設定檔？</string>
   <string name="profile_menu_fill_from_state">匯入目前裝置的設定</string>
   <string name="profile_remove_current_profile">無法刪除目前的設定檔</string>
-  <string name="profile_app_group_category_title">覆蓋通知</string>
+  <string name="profile_app_group_category_title">覆寫通知</string>
   <string name="profile_app_group_item_instructions">新增或移除群組</string>
-  <string name="profile_app_group_item_instructions_summary">新增或移除覆蓋通知應用程式到此設定檔</string>
+  <string name="profile_app_group_item_instructions_summary">新增或移除覆寫通知應用程式到此設定檔</string>
   <!-- Profile mode options. -->
   <string name="profile_entries_on">開</string>
   <string name="profile_entries_off">關</string>
-  <string name="profile_entries_no_override">不覆蓋</string>
+  <string name="profile_entries_no_override">不覆寫</string>
   <!-- Add Profile -->
   <string name="profile_name_title">名稱</string>
   <string name="new_profile_name">&lt;新設定檔&gt;</string>
@@ -309,10 +315,10 @@
   <string name="profile_networkmode_2g3g">2G/3G</string>
   <string name="profile_networkmode_2g3g4g">2G/3G/LTE</string>
   <!-- Profile Config screen PreferenceGroup titles -->
-  <string name="profile_volumeoverrides_title">音量覆蓋</string>
+  <string name="profile_volumeoverrides_title">音量覆寫</string>
   <string name="connection_state_enabled">啟用</string>
   <string name="volume_override_summary">設為「%1$s/%2$s」</string>
-  <string name="profile_volume_override_checkbox_label">覆蓋音量</string>
+  <string name="profile_volume_override_checkbox_label">覆寫音量</string>
   <!-- Menu item for managing profiles -->
   <string name="profile_profiles_manage">設定檔</string>
   <string name="profile_profile_manage">管理設定檔</string>
@@ -352,7 +358,7 @@
   <string name="profile_airplanemode_title">飛航模式</string>
   <string name="profile_brightness_title">螢幕亮度</string>
   <string name="profile_brightness_override_summary">設為「%1$d%%」</string>
-  <string name="profile_brightness_override_checkbox_label">強制亮度</string>
+  <string name="profile_brightness_override_checkbox_label">覆寫亮度</string>
   <!-- Connection override toggles (not all are used at this time ) -->
   <string name="toggleWifi">Wi\u2011Fi</string>
   <string name="toggleWifiAp">可攜式 Wi\u2011Fi 無線基地台</string>
@@ -383,8 +389,6 @@
   <string name="status_bar_quick_qs_pulldown_off">關閉</string>
   <string name="status_bar_quick_qs_pulldown_left">左</string>
   <string name="status_bar_quick_qs_pulldown_right">右</string>
-  <string name="status_bar_toggle_brightness">亮度控制</string>
-  <string name="status_bar_toggle_brightness_summary">在狀態列上左右滑動調整亮度</string>
   <string name="status_bar_double_tap_to_sleep_title">輕觸兩下即可休眠</string>
   <string name="status_bar_double_tap_to_sleep_summary">輕觸兩下狀態列來關閉螢幕</string>
   <!-- Status bar - icons -->
@@ -417,6 +421,14 @@
   <string name="status_bar_battery_percentage_default">隱藏</string>
   <string name="status_bar_battery_percentage_text_inside">圖示內</string>
   <string name="status_bar_battery_percentage_text_next">圖示旁</string>
+  <!-- Status bar - Brightness -->
+  <string name="status_bar_brightness_category">亮度</string>
+  <string name="status_bar_brightness_slider_title">亮度滑動條</string>
+  <string name="status_bar_brightness_slider_summary">在快速設定中調整亮度</string>
+  <string name="status_bar_brightness_slider_auto_title">自動調整亮度</string>
+  <string name="status_bar_brightness_slider_auto_summary">在亮度滑動條附近顯示自動調節亮度開關</string>
+  <string name="status_bar_toggle_brightness">亮度控制</string>
+  <string name="status_bar_toggle_brightness_summary">在狀態列上左右滑動調整亮度</string>
   <!-- Status bar - icon blacklist -->
   <string name="status_bar_icons_title">狀態列圖示</string>
   <string name="status_bar_icons_summary">控制顯示哪些狀態列圖示</string>
@@ -519,7 +531,7 @@
   <!-- Gestures: Touchscreen gestures -->
   <string name="touchscreen_gesture_settings_title">觸控螢幕手勢</string>
   <string name="touchscreen_gesture_settings_summary">執行各種觸控螢幕手勢以進行快速動作</string>
-  <string name="touchscreen_gestures_haptic_feedback_title">觸覺回饋</string>
+  <string name="touchscreen_gestures_haptic_feedback_title">觸控震動</string>
   <string name="touchscreen_gestures_haptic_feedback_summary">檢測到觸控螢幕手勢時震動</string>
   <string name="touchscreen_gesture_two_finger_down_swipe_title">用兩根手指向下滑動</string>
   <string name="touchscreen_gesture_one_finger_up_swipe_title">用一根手指向上滑動</string>

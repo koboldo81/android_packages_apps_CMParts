@@ -99,7 +99,7 @@
   <string name="notification_light_use_multiple_leds">多 LED</string>
   <string name="keywords_lights_brightness_level">降低 LED 亮度</string>
   <string name="notification_light_automagic">自动选择颜色</string>
-  <string name="notification_light_automagic_summary">正在自动选择颜色</string>
+  <string name="notification_light_automagic_summary">自动选择颜色</string>
   <!-- Lights settings, LED notification -->
   <string name="led_notification_title">指示灯设置</string>
   <string name="led_notification_text">LED 灯被“设置”启用</string>
@@ -238,6 +238,12 @@
   <string name="camera_double_tap_power_gesture_desc">在不解锁屏幕的情况下快速开启相机</string>
   <string name="torch_long_press_power_gesture_title">长按打开手电筒</string>
   <string name="torch_long_press_power_gesture_desc">屏幕关闭时，长按电源键开启手电筒</string>
+  <string name="torch_long_press_power_timeout_title">自动关闭手电筒</string>
+  <string name="torch_long_press_power_timeout_never">永不</string>
+  <string name="torch_long_press_power_timeout_1min">1 分钟</string>
+  <string name="torch_long_press_power_timeout_2min">2 分钟</string>
+  <string name="torch_long_press_power_timeout_5min">5 分钟</string>
+  <string name="torch_long_press_power_timeout_10min">10 分钟</string>
   <!-- Profiles -->
   <string name="profile_menu_delete_title">删除</string>
   <string name="profile_action_none">保持不变</string>
@@ -383,8 +389,6 @@
   <string name="status_bar_quick_qs_pulldown_off">关闭</string>
   <string name="status_bar_quick_qs_pulldown_left">左侧</string>
   <string name="status_bar_quick_qs_pulldown_right">右侧</string>
-  <string name="status_bar_toggle_brightness">亮度控制</string>
-  <string name="status_bar_toggle_brightness_summary">通过在状态栏上滑动调整亮度</string>
   <string name="status_bar_double_tap_to_sleep_title">双击以睡眠</string>
   <string name="status_bar_double_tap_to_sleep_summary">双击状态栏关闭显示屏</string>
   <!-- Status bar - icons -->
@@ -417,6 +421,14 @@
   <string name="status_bar_battery_percentage_default">隐藏</string>
   <string name="status_bar_battery_percentage_text_inside">图标内</string>
   <string name="status_bar_battery_percentage_text_next">图标旁</string>
+  <!-- Status bar - Brightness -->
+  <string name="status_bar_brightness_category">亮度</string>
+  <string name="status_bar_brightness_slider_title">亮度滑块</string>
+  <string name="status_bar_brightness_slider_summary">在快速设置中调节亮度</string>
+  <string name="status_bar_brightness_slider_auto_title">自动调节亮度</string>
+  <string name="status_bar_brightness_slider_auto_summary">在亮度滑块附近显示自动调节亮度开关</string>
+  <string name="status_bar_toggle_brightness">亮度控制</string>
+  <string name="status_bar_toggle_brightness_summary">通过在状态栏上滑动调整亮度</string>
   <!-- Status bar - icon blacklist -->
   <string name="status_bar_icons_title">状态栏图标</string>
   <string name="status_bar_icons_summary">控制显示哪些状态栏图标</string>

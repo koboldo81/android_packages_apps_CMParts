@@ -238,6 +238,12 @@
   <string name="camera_double_tap_power_gesture_desc">Rychle otevře fotoaparát bez odemknutí obrazovky</string>
   <string name="torch_long_press_power_gesture_title">Dlouhým stiskem zapnout svítilnu</string>
   <string name="torch_long_press_power_gesture_desc">Dlouhým stiskem tlačítka napájení při vypnuté obrazovce zapnout svítilnu</string>
+  <string name="torch_long_press_power_timeout_title">Automatické vypnutí svítilny</string>
+  <string name="torch_long_press_power_timeout_never">Nikdy</string>
+  <string name="torch_long_press_power_timeout_1min">1 minuta</string>
+  <string name="torch_long_press_power_timeout_2min">2 minuty</string>
+  <string name="torch_long_press_power_timeout_5min">5 minut</string>
+  <string name="torch_long_press_power_timeout_10min">10 minut</string>
   <!-- Profiles -->
   <string name="profile_menu_delete_title">Smazat</string>
   <string name="profile_action_none">Ponechat nezměněné</string>
@@ -383,8 +389,6 @@
   <string name="status_bar_quick_qs_pulldown_off">Vypnuto</string>
   <string name="status_bar_quick_qs_pulldown_left">levé</string>
   <string name="status_bar_quick_qs_pulldown_right">pravé</string>
-  <string name="status_bar_toggle_brightness">Ovládání jasu</string>
-  <string name="status_bar_toggle_brightness_summary">Umožňuje nastavit jas tažením prstu na stavové liště</string>
   <string name="status_bar_double_tap_to_sleep_title">Dvojitým poklepáním uspat</string>
   <string name="status_bar_double_tap_to_sleep_summary">Dvojitým poklepáním na stavový řádek vypnout obrazovku</string>
   <!-- Status bar - icons -->
@@ -417,6 +421,14 @@
   <string name="status_bar_battery_percentage_default">Skryté</string>
   <string name="status_bar_battery_percentage_text_inside">Uvnitř ikony</string>
   <string name="status_bar_battery_percentage_text_next">Vedle ikony</string>
+  <!-- Status bar - Brightness -->
+  <string name="status_bar_brightness_category">Jas</string>
+  <string name="status_bar_brightness_slider_title">Posuvník jasu</string>
+  <string name="status_bar_brightness_slider_summary">Upravte jas z rychlého nastavení</string>
+  <string name="status_bar_brightness_slider_auto_title">Automatický jas</string>
+  <string name="status_bar_brightness_slider_auto_summary">Zobrazit přepínač pro automatický jas poblíž posuvníku</string>
+  <string name="status_bar_toggle_brightness">Ovládání jasu</string>
+  <string name="status_bar_toggle_brightness_summary">Umožňuje nastavit jas tažením prstu na stavové liště</string>
   <!-- Status bar - icon blacklist -->
   <string name="status_bar_icons_title">Ikony stavové lišty</string>
   <string name="status_bar_icons_summary">Upravit zobrazení ikon na stavové liště</string>

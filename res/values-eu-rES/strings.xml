@@ -184,8 +184,8 @@
   <string name="volbtn_music_controls_summary">Aurreratu edo atzeratu musika pistak bolumen teklak luze sakatuz pantaila itzalita dagoenean</string>
   <string name="volbtn_cursor_control_title">Teklatu bidezko kurtsorearen kontrola</string>
   <string name="volbtn_cursor_control_off">Desgaituta</string>
-  <string name="volbtn_cursor_control_on">Bolumena igo eta jaisteko botoiek kurtsorea ezkerrera eta eskumara mugitzen dute</string>
-  <string name="volbtn_cursor_control_on_reverse">Bolumena igo eta jaisteko botoiek kurtsorea eskumara eta ezkerrera mugitzen dute</string>
+  <string name="volbtn_cursor_control_on">Bolumena igo eta jaisteko botoiek kurtsorea ezkerrera eta eskuinera mugitzen dute</string>
+  <string name="volbtn_cursor_control_on_reverse">Bolumena igo eta jaisteko botoiek kurtsorea eskuinera eta ezkerrera mugitzen dute</string>
   <string name="power_end_call_title">Amaitu deia</string>
   <string name="power_end_call_summary">Amaitu uneko deia pizte botoia sakatuta</string>
   <string name="swap_volume_buttons_title">Berrorientatu</string>
@@ -229,7 +229,7 @@
   <string name="power_menu_lockdown_title">Gailuaren blokeoa</string>
   <string name="power_menu_bug_report_title">Errore-txostena</string>
   <string name="power_menu_sound_title">Soinu-panela</string>
-  <string name="power_menu_bug_report_disabled">Erroreen berri ematea ezgaituta dago garapen ezarpenetan</string>
+  <string name="power_menu_bug_report_disabled">Erroreen berri ematea ezgaituta dago garatzaileen aukeretan</string>
   <string name="volume_keys_control_ring_stream_title">Kontrolatu dei-doinuaren bolumena</string>
   <string name="volume_keys_control_ring_stream_summary_on">Bolumen teklek dei-doinuaren bolumena kontrolatzen dute</string>
   <string name="volume_keys_control_ring_stream_summary_off">Bolumen teklek multimediaren bolumena kontrolatzen dute</string>
@@ -238,6 +238,12 @@
   <string name="camera_double_tap_power_gesture_desc">Ireki kamera azkar pantaila desblokeatu gabe</string>
   <string name="torch_long_press_power_gesture_title">Sakatu luze linternarako</string>
   <string name="torch_long_press_power_gesture_desc">Aktibatu linterna itzaltze botoia luze sakatuz pantaila itzalita dagoenean</string>
+  <string name="torch_long_press_power_timeout_title">Itzali linterna automatikoki</string>
+  <string name="torch_long_press_power_timeout_never">Inoiz ez</string>
+  <string name="torch_long_press_power_timeout_1min">minutu 1</string>
+  <string name="torch_long_press_power_timeout_2min">2 minutu</string>
+  <string name="torch_long_press_power_timeout_5min">5 minutu</string>
+  <string name="torch_long_press_power_timeout_10min">10 minutu</string>
   <!-- Profiles -->
   <string name="profile_menu_delete_title">Ezabatu</string>
   <string name="profile_action_none">Laga aldatu gabe</string>
@@ -382,9 +388,7 @@
   <string name="status_bar_quick_qs_pulldown_summary_right">Eskuinean</string>
   <string name="status_bar_quick_qs_pulldown_off">Ez</string>
   <string name="status_bar_quick_qs_pulldown_left">ezkerreko</string>
-  <string name="status_bar_quick_qs_pulldown_right">eskumako</string>
-  <string name="status_bar_toggle_brightness">Distiraren kontrola</string>
-  <string name="status_bar_toggle_brightness_summary">Doitu distira egoera-barran zehar irristatuz</string>
+  <string name="status_bar_quick_qs_pulldown_right">Eskuina</string>
   <string name="status_bar_double_tap_to_sleep_title">Birritan sakatu lokartzeko</string>
   <string name="status_bar_double_tap_to_sleep_summary">Birritan sakatu egoera-barran pantaila itzaltzeko</string>
   <!-- Status bar - icons -->
@@ -417,6 +421,14 @@
   <string name="status_bar_battery_percentage_default">Ezkutatua</string>
   <string name="status_bar_battery_percentage_text_inside">Ikonoaren barruan</string>
   <string name="status_bar_battery_percentage_text_next">Ikonoaren ondoan</string>
+  <!-- Status bar - Brightness -->
+  <string name="status_bar_brightness_category">Distira</string>
+  <string name="status_bar_brightness_slider_title">Distira tiradera</string>
+  <string name="status_bar_brightness_slider_summary">Doitu distira ezarpen azkarretatik</string>
+  <string name="status_bar_brightness_slider_auto_title">Distira automatikoa</string>
+  <string name="status_bar_brightness_slider_auto_summary">Erakutsi distira adimentsuaren aldatzailea tiraderaren alboan</string>
+  <string name="status_bar_toggle_brightness">Distiraren kontrola</string>
+  <string name="status_bar_toggle_brightness_summary">Doitu distira egoera-barran zehar irristatuz</string>
   <!-- Status bar - icon blacklist -->
   <string name="status_bar_icons_title">Egoera-barrako ikonoak</string>
   <string name="status_bar_icons_summary">Kontrolatu egoera-barran agertuko diren ikonoak</string>
@@ -436,7 +448,7 @@
   <string name="contributions_info_msg">
         <![CDATA[<b>Parte-hartzaileak guztira:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>Parte-hartzeak guztira:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
-                 <b>Azken eguneraketa:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
+                 <b>Azken eguneratzea:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
   <!-- Anonymous Statistics #CM -->
   <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
   <string name="anonymous_statistics_title">LineageOS estatistikak</string>
@@ -525,7 +537,7 @@ Informazio hau gailuaren abio bakoitzean bidaltzen da.\n\nBidalitako informazioa
   <string name="touchscreen_gesture_one_finger_up_swipe_title">Pasatu hatz bat gora</string>
   <string name="touchscreen_gesture_one_finger_down_swipe_title">Pasatu hatz bat behera</string>
   <string name="touchscreen_gesture_one_finger_left_swipe_title">Pasatu hatz bat ezkerrera</string>
-  <string name="touchscreen_gesture_one_finger_right_swipe_title">Pasatu hatz bat eskumara</string>
+  <string name="touchscreen_gesture_one_finger_right_swipe_title">Pasatu hatz bat eskuinera</string>
   <string name="touchscreen_gesture_up_arrow_title">Marraztu \"Λ\"</string>
   <string name="touchscreen_gesture_down_arrow_title">Marraztu \"V\"</string>
   <string name="touchscreen_gesture_left_arrow_title">Marraztu \"&lt;\"</string>

@@ -238,6 +238,12 @@
   <string name="camera_double_tap_power_gesture_desc">Бързо стартиране на камера без отключване на екрана</string>
   <string name="torch_long_press_power_gesture_title">Активиране на фенерчето</string>
   <string name="torch_long_press_power_gesture_desc">Активиране на фенерчето чрез зъдържане бутона за захранване, когато дисплеят е изключен</string>
+  <string name="torch_long_press_power_timeout_title">Автоматично изключване на фенерчето</string>
+  <string name="torch_long_press_power_timeout_never">Никога</string>
+  <string name="torch_long_press_power_timeout_1min">1 минута</string>
+  <string name="torch_long_press_power_timeout_2min">2 минути</string>
+  <string name="torch_long_press_power_timeout_5min">5 минути</string>
+  <string name="torch_long_press_power_timeout_10min">10 минути</string>
   <!-- Profiles -->
   <string name="profile_menu_delete_title">Изтриване</string>
   <string name="profile_action_none">Остави непроменен</string>
@@ -383,8 +389,6 @@
   <string name="status_bar_quick_qs_pulldown_off">Изключен</string>
   <string name="status_bar_quick_qs_pulldown_left">Вляво</string>
   <string name="status_bar_quick_qs_pulldown_right">Вдясно</string>
-  <string name="status_bar_toggle_brightness">Контрол на яркостта</string>
-  <string name="status_bar_toggle_brightness_summary">Настройване на яркостта чрез плъзгане в лентата на състоянието</string>
   <string name="status_bar_double_tap_to_sleep_title">Двукратно почукване за заспиване</string>
   <string name="status_bar_double_tap_to_sleep_summary">Двукратно почукване върху лентата на състоянието изключва на дисплея</string>
   <!-- Status bar - icons -->
@@ -417,6 +421,14 @@
   <string name="status_bar_battery_percentage_default">Скрит</string>
   <string name="status_bar_battery_percentage_text_inside">В иконата</string>
   <string name="status_bar_battery_percentage_text_next">До иконата</string>
+  <!-- Status bar - Brightness -->
+  <string name="status_bar_brightness_category">Яркост</string>
+  <string name="status_bar_brightness_slider_title">Плъзгач за яркост</string>
+  <string name="status_bar_brightness_slider_summary">Настройка на яркост от бързи настройки</string>
+  <string name="status_bar_brightness_slider_auto_title">Автоматична яркост</string>
+  <string name="status_bar_brightness_slider_auto_summary">Покажи на превключвач за адаптивна яркост близо до плъзгача</string>
+  <string name="status_bar_toggle_brightness">Контрол на яркостта</string>
+  <string name="status_bar_toggle_brightness_summary">Настройване на яркостта чрез плъзгане в лентата на състоянието</string>
   <!-- Status bar - icon blacklist -->
   <string name="status_bar_icons_title">Икони на лентата</string>
   <string name="status_bar_icons_summary">Изберете, кои икони да се показват в лентата на състоянието</string>

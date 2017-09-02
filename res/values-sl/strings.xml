@@ -138,7 +138,7 @@
   <string name="live_display_color_profile_reading_title">Branje</string>
   <string name="live_display_color_profile_reading_summary">Toplejše barve za manjšo obremenitev oči</string>
   <string name="live_display_color_profile_srgb_title">sRGB</string>
-  <string name="live_display_color_profile_srgb_summary">Barve so natančno v sRGB barvnem prostoru</string>
+  <string name="live_display_color_profile_srgb_summary">Barve ustrezne sRGB barvnemu prostoru</string>
   <string name="color_calibration_title">Umerjanje barv</string>
   <string name="color_calibration_summary">Umeri barve na zaslonu</string>
   <string name="color_red_title">Rdeča</string>
@@ -238,6 +238,12 @@
   <string name="camera_double_tap_power_gesture_desc">Hitro odprite fotoaparat brez odklepanja zaslona</string>
   <string name="torch_long_press_power_gesture_title">Dolg pritisk za svetilko</string>
   <string name="torch_long_press_power_gesture_desc">Aktivirajte svetilko z dolgim pritiskom na gumb za vklop/izklop med izključenim zaslonom</string>
+  <string name="torch_long_press_power_timeout_title">Samodejno izključi svetilko</string>
+  <string name="torch_long_press_power_timeout_never">Nikoli</string>
+  <string name="torch_long_press_power_timeout_1min">1 minuta</string>
+  <string name="torch_long_press_power_timeout_2min">2 minuti</string>
+  <string name="torch_long_press_power_timeout_5min">5 minut</string>
+  <string name="torch_long_press_power_timeout_10min">10 minut</string>
   <!-- Profiles -->
   <string name="profile_menu_delete_title">Izbriši</string>
   <string name="profile_action_none">Pusti nespremenjeno</string>
@@ -383,8 +389,6 @@
   <string name="status_bar_quick_qs_pulldown_off">Izklopljeno</string>
   <string name="status_bar_quick_qs_pulldown_left">Levi</string>
   <string name="status_bar_quick_qs_pulldown_right">Desni</string>
-  <string name="status_bar_toggle_brightness">Nadzor svetlosti</string>
-  <string name="status_bar_toggle_brightness_summary">Prilagodite svetlost tako, da povlečete preko vrstice stanja</string>
   <string name="status_bar_double_tap_to_sleep_title">Dvojni tap za spanje</string>
   <string name="status_bar_double_tap_to_sleep_summary">Dvakrat tapnite na vrstico stanja, da izklopite zaslon</string>
   <!-- Status bar - icons -->
@@ -417,6 +421,14 @@
   <string name="status_bar_battery_percentage_default">Skrito</string>
   <string name="status_bar_battery_percentage_text_inside">V ikoni</string>
   <string name="status_bar_battery_percentage_text_next">Poleg ikone</string>
+  <!-- Status bar - Brightness -->
+  <string name="status_bar_brightness_category">Svetlost</string>
+  <string name="status_bar_brightness_slider_title">Drsnik za svetlost</string>
+  <string name="status_bar_brightness_slider_summary">Prilagajanje svetlosti iz Hitrih nastavitev</string>
+  <string name="status_bar_brightness_slider_auto_title">Samodejna svetlost</string>
+  <string name="status_bar_brightness_slider_auto_summary">Prikaži preklopnik za prilagodljivo svetlost blizu drsnika</string>
+  <string name="status_bar_toggle_brightness">Nadzor svetlosti</string>
+  <string name="status_bar_toggle_brightness_summary">Prilagodite svetlost tako, da povlečete preko vrstice stanja</string>
   <!-- Status bar - icon blacklist -->
   <string name="status_bar_icons_title">Ikone vrstice stanja</string>
   <string name="status_bar_icons_summary">Nadzor prikazanih ikon v vrstici stanja</string>
