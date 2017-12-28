@@ -185,9 +185,9 @@
   <string name="volbtn_music_controls_title">Управление плеером</string>
   <string name="volbtn_music_controls_summary">Переключать музыкальные треки долгим нажатием кнопок громкости при выключенном экране</string>
   <string name="volbtn_cursor_control_title">Перемещение курсо­­­­­­ра</string>
-  <string name="volbtn_cursor_control_off">Отключен</string>
-  <string name="volbtn_cursor_control_on">Громкость вверх/вниз перемещает курсор влево/вправо</string>
-  <string name="volbtn_cursor_control_on_reverse">Громкость вверх/вниз перемещает курсор вправо/влево</string>
+  <string name="volbtn_cursor_control_off">Выключено</string>
+  <string name="volbtn_cursor_control_on">Кнопка «+» двигает курсор влево, «-» — вправо</string>
+  <string name="volbtn_cursor_control_on_reverse">Кнопка «+» двигает курсор вправо, «-» — влево</string>
   <string name="power_end_call_title">Завершение вызова</string>
   <string name="power_end_call_summary">Завершать телефонный вызов нажатием кнопки питания</string>
   <string name="swap_volume_buttons_title">Автоповорот</string>
@@ -551,6 +551,12 @@
   <string name="touchscreen_gesture_letter_v_title">Нарисовать букву «V»</string>
   <string name="touchscreen_gesture_letter_w_title">Нарисовать букву «W»</string>
   <string name="touchscreen_gesture_letter_z_title">Нарисовать букву «Z»</string>
+  <!-- Gesture: Stylus gestures -->
+  <string name="touchscreen_gesture_swipe_up_stylus_title">Провести вверх стилусом</string>
+  <string name="touchscreen_gesture_swipe_down_stylus_title">Провести вниз стилусом</string>
+  <string name="touchscreen_gesture_swipe_left_stylus_title">Провести влево стилусом</string>
+  <string name="touchscreen_gesture_swipe_right_stylus_title">Провести вправо стилусом</string>
+  <string name="touchscreen_gesture_long_press_stylus_title">Долгое нажатие стилусом</string>
   <string name="touchscreen_gesture_action_dialog_title">Действие жеста</string>
   <string name="touchscreen_gesture_action_do_nothing">Ничего</string>
   <string name="touchscreen_gesture_action_flashlight">Включить или выключить фонарик</string>
@@ -562,4 +568,6 @@
   <string name="touchscreen_gesture_action_play_pause_music">Воспр. или остановить музыку</string>
   <string name="touchscreen_gesture_action_previous_track">Перейти к предыдущему треку</string>
   <string name="touchscreen_gesture_action_next_track">Перейти к следующему треку</string>
+  <string name="touchscreen_gesture_action_volume_down">Уменьшить громкость</string>
+  <string name="touchscreen_gesture_action_volume_up">Увеличить громкость</string>
 </resources>
