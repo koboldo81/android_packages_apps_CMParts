@@ -227,11 +227,9 @@
   <string name="power_menu_screenshot_title">Снимак екрана</string>
   <string name="power_menu_airplane_title">Режим рада у авиону</string>
   <string name="power_menu_users_title">Пребацивање корисника</string>
-  <string name="power_menu_settings_title">Пречица подешавања</string>
-  <string name="power_menu_lockdown_title">Закључавање уређаја</string>
   <string name="power_menu_bug_report_title">Пријава грешака</string>
-  <string name="power_menu_sound_title">Звучни панел</string>
   <string name="power_menu_bug_report_disabled">Пријава грешака је онемогућена у опцијама за програмера.</string>
+  <string name="power_menu_sound_title">Звучни панел</string>
   <string name="volume_keys_control_ring_stream_title">Управљање јачином звука звона</string>
   <string name="volume_keys_control_ring_stream_summary_on">Дугмад за јачину звука управљају јачином звука звона.</string>
   <string name="volume_keys_control_ring_stream_summary_off">Дугмад за јачину звука управљају јачином звука медија.</string>
@@ -552,6 +550,11 @@
   <string name="touchscreen_gesture_letter_w_title">Нацртај слово „W“</string>
   <string name="touchscreen_gesture_letter_z_title">Нацртај слово „Z“</string>
   <!-- Gesture: Stylus gestures -->
+  <string name="touchscreen_gesture_swipe_up_stylus_title">Превуците нагоре са оловком</string>
+  <string name="touchscreen_gesture_swipe_down_stylus_title">Превуците доле са оловком</string>
+  <string name="touchscreen_gesture_swipe_left_stylus_title">Превуците налево са оловком</string>
+  <string name="touchscreen_gesture_swipe_right_stylus_title">Превуците десно са оловком</string>
+  <string name="touchscreen_gesture_long_press_stylus_title">Дуги притисак са оловком</string>
   <string name="touchscreen_gesture_action_dialog_title">Радња покрета</string>
   <string name="touchscreen_gesture_action_do_nothing">Ништа</string>
   <string name="touchscreen_gesture_action_flashlight">Укључи/искључи лампу</string>
@@ -563,4 +566,6 @@
   <string name="touchscreen_gesture_action_play_pause_music">Репродукуј/паузирај музику</string>
   <string name="touchscreen_gesture_action_previous_track">Пређи на претходну нумеру</string>
   <string name="touchscreen_gesture_action_next_track">Пређи на следећу нумеру</string>
+  <string name="touchscreen_gesture_action_volume_down">Смањи јачину звука</string>
+  <string name="touchscreen_gesture_action_volume_up">Повећај јачину звука</string>
 </resources>

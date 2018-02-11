@@ -227,11 +227,9 @@
   <string name="power_menu_screenshot_title">Bildschirmfoto</string>
   <string name="power_menu_airplane_title">Flugmodus</string>
   <string name="power_menu_users_title">Benutzer wechseln</string>
-  <string name="power_menu_settings_title">Einstellungsverknüpfung</string>
-  <string name="power_menu_lockdown_title">Gerät sperren</string>
   <string name="power_menu_bug_report_title">Fehlerbericht</string>
-  <string name="power_menu_sound_title">Ton-Einstellungen</string>
   <string name="power_menu_bug_report_disabled">Fehlerberichte sind in Entwicklereinstellungen deaktiviert</string>
+  <string name="power_menu_sound_title">Ton-Einstellungen</string>
   <string name="volume_keys_control_ring_stream_title">Klingeltonlautstärke steuern</string>
   <string name="volume_keys_control_ring_stream_summary_on">Lautstärketasten steuern Klingeltonlautstärke</string>
   <string name="volume_keys_control_ring_stream_summary_off">Lautstärketasten steuern Medienlautstärke</string>
@@ -556,6 +554,7 @@
   <string name="touchscreen_gesture_swipe_down_stylus_title">Mit dem Stift nach unten wischen</string>
   <string name="touchscreen_gesture_swipe_left_stylus_title">Mit dem Stift nach links wischen</string>
   <string name="touchscreen_gesture_swipe_right_stylus_title">Mit dem Stift nach rechts wischen</string>
+  <string name="touchscreen_gesture_long_press_stylus_title">Langes Drücken mit dem Stift</string>
   <string name="touchscreen_gesture_action_dialog_title">Gestenaktion</string>
   <string name="touchscreen_gesture_action_do_nothing">Nichts tun</string>
   <string name="touchscreen_gesture_action_flashlight">Taschenlampe ein-/ausschalten</string>
